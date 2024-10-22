@@ -1,0 +1,37 @@
+.kanban-column {
+  background-color: #f4f5f8;
+  border-radius: 8px;
+  min-width: 300px;
+  padding: 16px;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.column-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-count {
+  margin-left: 8px;
+  color: #666;
+}
+
+.column-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.kanban-column h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #333;
+}

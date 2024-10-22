@@ -1,0 +1,73 @@
+.kanban-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ticket-id {
+  color: #666;
+  font-size: 14px;
+}
+
+.user-avatar {
+  width: 24px;
+  height: 24px;
+  color: #6b6f76; /* Adjust color as needed */
+}
+
+.card-title {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.status-icon {
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priority-icon {
+  font-size: 16px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tag {
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.tag-icon {
+  margin-right: 4px;
+  font-size: 8px;
+}
+
+.status-icon.todo { color: #ff5722; }
+.status-icon.in-progress { color: #ffc107; }
+.status-icon.done { color: #4caf50; }
